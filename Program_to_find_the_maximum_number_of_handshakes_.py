@@ -1,3 +1,2 @@
 a=int(input())
-ans=int((a-1)*(a)/2)
-print(ans)
+print((a*(a-1))//2)
