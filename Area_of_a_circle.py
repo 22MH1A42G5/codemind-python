@@ -1,2 +1,3 @@
-a=int(input())
-print(format(3.14*a*a,".2f"))
+n=int(input())
+ans=3.14*n*n;
+print("%.2f"%(ans))
