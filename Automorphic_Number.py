@@ -1,8 +1,8 @@
 n=int(input())
-sq=n*n;
-cnt=len(str(n))
-p=pow(10,cnt)
-if (sq%p)==n :
-    print('Automorphic Number');
+no=len(str(n))
+sq=n**2
+ans=sq%pow(10,no)
+if ans==n:
+    print('Automorphic Number')
 else:
-    print('Not an Automorphic Number');
+    print('Not an Automorphic Number')
